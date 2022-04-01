@@ -36,8 +36,7 @@ public class UI {
     public static final String ANSI_CYAN_BACKGROUND = "u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "u001B[47m";
 
-	//metodo para gerar o tabuleiro de rodada impar, ou seja, quando o jogador está selecionando a peça,
-a matriz "pecas" irá informar o tamanho das linhas e colunas
+	//Metodo para gerar o tabuleiro de rodada impar, ou seja, quando o jogador está selecionando a peça, a matriz "pecas" irá informar o tamanho das linhas e colunas
             
     public static void imprimeTabuleiro(PecaDeXadrez[][] peças) {
         for(int i = 0; i < peças.length; i++){
